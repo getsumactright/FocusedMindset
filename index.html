@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Focused Mindset — FCSD Streetwear</title>
+    <meta
+      name="description"
+      content="Focused Mindset (FCSD): streetwear built for the ones who stay locked in — hats, tees, hoodie sets and track sets made from the grind."
+    />
+    <link rel="icon" href="assets/favicon.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800;12..96,900&family=Hanken+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="introOverlay" class="intro-overlay" aria-hidden="true">
+      <video
+        id="introVideo"
+        class="intro-video"
+        autoplay
+        muted
+        playsinline
+        preload="auto"
+      >
+        <source src="assets/focus-intro.mp4" type="video/mp4" />
+      </video>
+      <button id="introSkip" class="intro-skip" type="button">Skip intro</button>
+    </div>
+
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="nav" id="siteNav">
+      <div class="nav-inner">
+        <a class="wordmark" href="#top" aria-label="Focused Mindset home">
+          <img class="wordmark-icon" src="assets/f-mark.png" alt="" width="28" height="24" loading="eager" />
+          <span>Focused Mindset</span>
+        </a>
+
+        <nav class="nav-links" id="navLinks">
+          <a href="#shop">Shop</a>
+          <a href="#mission">Mission</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a class="btn btn-primary btn-small" href="https://focusedmindset.shop/collections/all" target="_blank" rel="noopener">Shop the Drop</a>
+          <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <span id="top"></span>
+
+      <section class="hero">
+        <div class="hero-media" aria-hidden="true">
+          <img src="assets/products/hero.png" alt="" loading="eager" fetchpriority="high" width="1536" height="1024" />
+          <div class="hero-smoke">
+            <span class="smoke-plume plume-a"></span>
+            <span class="smoke-plume plume-b"></span>
+            <span class="smoke-plume plume-c"></span>
+            <span class="smoke-plume plume-d"></span>
+          </div>
+          <div class="hero-scrim"></div>
+        </div>
+        <div class="hero-content">
+          <p class="hero-kicker">FCSD &middot; Est. for the ones who lock in</p>
+          <h1 class="hero-title">
+            Crafted for the ones who<br />stay <em>focused</em> —<br />built from the grind.
+          </h1>
+          <p class="hero-sub">
+            Made for the streets. Made for leg day. Made for the 5 a.m. alarm you actually got up for.
+            Every piece is designed to keep your tunnel vision locked in.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="https://focusedmindset.shop/collections/all" target="_blank" rel="noopener" aria-label="Shop the Drop on FCSD store (opens in new tab)">Shop the Drop</a>
+            <a class="btn btn-ghost" href="#shop">See what's in stock</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>Stay Focused — Tunnel Vision — Chase The Vision — Small Business, Big Vision — </span>
+          <span>Stay Focused — Tunnel Vision — Chase The Vision — Small Business, Big Vision — </span>
+        </div>
+      </div>
+
+      <section id="shop" class="shop">
+        <div class="section-head">
+          <h2>Everything we've got right now</h2>
+          <p>Eight pieces, one mindset. Tap a piece to lock it in on the FCSD store.</p>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <a class="product-media" href="https://focusedmindset.shop/products/focused-pressure-heavyweight-shirt" target="_blank" rel="noopener" aria-label="Shop Focused Pressure Heavyweight Shirt on FCSD store (opens in new tab)">
+              <span class="badge badge-sale">Sale</span>
+              <img src="assets/products/pressure-heavyweight-shirt.png" alt="Cream heavyweight tee with black gothic FCSD chest print" loading="lazy" decoding="async" width="1024" height="1536" />
+            </a>
+            <div class="product-info">
+              <h3>Focused &ldquo;Pressure&rdquo; Heavyweight Shirt</h3>
+              <p class="product-price"><span class="was">$40</span> $30</p>
+              <a class="product-link" href="https://focusedmindset.shop/products/focused-pressure-heavyweight-shirt" target="_blank" rel="noopener" aria-label="Shop Focused Pressure Heavyweight Shirt (opens in new tab)">Shop this &rarr;</a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <a class="product-media" href="https://focusedmindset.shop/products/fcsd-graffiti-hoodie-jogger-set-black-red" target="_blank" rel="noopener" aria-label="Shop FCSD Graffiti Hoodie and Jogger Set on FCSD store (opens in new tab)">
+              <span class="badge badge-sale">Sale</span>
+              <img src="assets/products/graffiti-hoodie-jogger.png" alt="Black FCSD hoodie and jogger set with red graffiti-drip lettering" loading="lazy" decoding="async" width="1122" height="1402" />
+            </a>
+            <div class="product-info">
+              <h3>FCSD Graffiti Hoodie &amp; Jogger Set</h3>
+              <p class="product-price"><span class="was">$90</span> $75</p>
+              <a class="product-link" href="https://focusedmindset.shop/products/fcsd-graffiti-hoodie-jogger-set-black-red" target="_blank" rel="noopener" aria-label="Shop FCSD Graffiti Hoodie and Jogger Set (opens in new tab)">Shop this &rarr;</a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <a class="product-media" href="https://focusedmindset.shop/products/fcsd-track-set" target="_blank" rel="noopener" aria-label="Shop FCSD Track Set on FCSD store (opens in new tab)">
+              <span class="badge badge-sale">Sale</span>
+              <img src="assets/products/track-set.png" alt="Charcoal and white FCSD track jacket and shorts set" loading="lazy" decoding="async" width="1200" height="1200" />
+            </a>
+            <div class="product-info">
+              <h3>FCSD Track Set</h3>
+              <p class="product-price"><span class="was">$80</span> $70</p>
+              <a class="product-link" href="https://focusedmindset.shop/products/fcsd-track-set" target="_blank" rel="noopener" aria-label="Shop FCSD Track Set (opens in new tab)">Shop this &rarr;</a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <a class="product-media" href="https://focusedmindset.shop/products/focused-pressure-mesh-7-shorts" target="_blank" rel="noopener" aria-label="Shop Focused Pressure Mesh 7-inch Shorts on FCSD store (opens in new tab)">
+              <span class="badge badge-sale">Sale</span>
+              <img src="assets/products/pressure-mesh-shorts.png" alt="Black FCSD athletic mesh shorts against a starburst backdrop" loading="lazy" decoding="async" width="1080" height="1350" />
+            </a>
+            <div class="product-info">
+              <h3>Focused &ldquo;Pressure&rdquo; Mesh 7&Prime; Shorts</h3>
+              <p class="product-price"><span class="was">$40</span> $32</p>
+              <a class="product-link" href="https://focusedmindset.shop/products/focused-pressure-mesh-7-shorts" target="_blank" rel="noopener" aria-label="Shop Focused Pressure Mesh 7-inch Shorts (opens in new tab)">Shop this &rarr;</a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <a class="product-media" href="https://focusedmindset.shop/products/fcsd-mineral-wash-embroidered-tee" target="_blank" rel="noopener" aria-label="Shop FCSD Mineral-Wash Embroidered Tee on FCSD store (opens in new tab)">
+              <span class="badge badge-sale">Sale</span>
+              <img src="assets/products/mineral-wash-tee.png" alt="FCSD mineral-wash embroidered tee" loading="lazy" decoding="async" width="1200" height="1200" />
+            </a>
+            <div class="product-info">
+              <h3>FCSD Mineral-Wash Embroidered Tee</h3>
+              <p class="product-price"><span class="was">$35</span> $30</p>
+              <a class="product-link" href="https://focusedmindset.shop/products/fcsd-mineral-wash-embroidered-tee" target="_blank" rel="noopener" aria-label="Shop FCSD Mineral-Wash Embroidered Tee (opens in new tab)">Shop this &rarr;</a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <a class="product-media" href="https://focusedmindset.shop/products/fcsd-olive-mocha-snapback" target="_blank" rel="noopener" aria-label="Shop FCSD Olive and Mocha Snapback on FCSD store (opens in new tab)">
+              <span class="badge badge-sale">Sale</span>
+              <img src="assets/products/olive-mocha-snapback.png" alt="Olive and mocha FCSD snapback with embroidered lettering" loading="lazy" decoding="async" width="1122" height="1402" />
+            </a>
+            <div class="product-info">
+              <h3>FCSD Olive &amp; Mocha Snapback</h3>
+              <p class="product-price"><span class="was">$30</span> $25</p>
+              <a class="product-link" href="https://focusedmindset.shop/products/fcsd-olive-mocha-snapback" target="_blank" rel="noopener" aria-label="Shop FCSD Olive and Mocha Snapback (opens in new tab)">Shop this &rarr;</a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <a class="product-media" href="https://focusedmindset.shop/products/12-embroidered-5-panel-hats-with-front-embroidery" target="_blank" rel="noopener" aria-label="Shop 12-Pack Embroidered 5-Panel Hats on FCSD store (opens in new tab)">
+              <span class="badge badge-wholesale">Wholesale &middot; 12-pack</span>
+              <img src="assets/products/hats-12pack.png" alt="Black and purple FCSD 5-panel snapback, sold as a 12-pack case" loading="lazy" decoding="async" width="1200" height="1200" />
+            </a>
+            <div class="product-info">
+              <h3>12-Pack Embroidered 5-Panel Hats</h3>
+              <p class="product-price"><span class="was">$300</span> $250</p>
+              <a class="product-link" href="https://focusedmindset.shop/products/12-embroidered-5-panel-hats-with-front-embroidery" target="_blank" rel="noopener" aria-label="Shop 12-Pack Embroidered 5-Panel Hats (opens in new tab)">Shop this &rarr;</a>
+            </div>
+          </article>
+
+          <article class="product-card is-soldout">
+            <a class="product-media" href="https://focusedmindset.shop/products/fcsd-snapback-black-white" target="_blank" rel="noopener" aria-label="View FCSD Snapback Black and White details on FCSD store (opens in new tab)">
+              <span class="badge badge-soldout">Restocking soon</span>
+              <img src="assets/products/snapback-black-white.png" alt="Black and white FCSD snapback with embroidered lettering" loading="lazy" decoding="async" width="1200" height="1200" />
+            </a>
+            <div class="product-info">
+              <h3>FCSD Snapback — Black/White</h3>
+              <p class="product-price product-price-muted">Notify me</p>
+              <a class="product-link" href="https://focusedmindset.shop/products/fcsd-snapback-black-white" target="_blank" rel="noopener" aria-label="View FCSD Snapback Black and White details (opens in new tab)">View details &rarr;</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="mission" class="mission">
+        <div class="mission-media">
+          <img
+            src="assets/products/graffiti-hoodie-jogger.png"
+            alt="FCSD graffiti hoodie and jogger set styled against a brick wall"
+            loading="lazy"
+            decoding="async"
+            width="1122"
+            height="1402"
+          />
+        </div>
+        <div class="mission-copy">
+          <h2>Clothing built around the mindset, not the other way around.</h2>
+          <p>
+            Focused Mindset started as a reminder to ourselves: protect the work, protect the workout,
+            protect the headspace. Every hat, tee, and set carries that same instruction — stay locked in,
+            whether that's the gym at 5am, the grind after hours, or just getting your mind clear enough
+            to finish what you started.
+          </p>
+          <p>
+            Stay focused, stay driven, and keep your tunnel vision locked in. Every purchase, every share,
+            every bit of support fuels the dream — together, we're building something bigger than ourselves.
+          </p>
+          <p class="mission-tags">#SmallBusinessSupport &nbsp;#TunnelVision &nbsp;#ChaseTheVision</p>
+        </div>
+      </section>
+
+      <section class="join">
+        <div class="join-copy">
+          <h2>Get 10% off your first drop</h2>
+          <p>New pieces, restocks, and the occasional reminder to stay focused — straight to your inbox.</p>
+        </div>
+        <form class="join-form" id="joinForm">
+          <input type="email" id="email" name="email" placeholder="you@example.com" required aria-label="Email address" aria-describedby="formMessage" />
+          <button type="submit">Notify Me</button>
+        </form>
+        <p id="formMessage" class="form-message" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <footer id="contact" class="footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a class="wordmark" href="#top" aria-label="Focused Mindset home">
+            <svg class="wordmark-icon" viewBox="0 0 48 48" aria-hidden="true">
+              <path
+                d="M14 6h24l-6 8H22.5c-1 0-1.8.5-2.2 1.4L19 19h14l-5.6 7.6H16.6l-2.9 12.9c-.3 1.5-1.6 2.5-3.1 2.5H6l4.4-19.6c1.4-6.2 3-13.4 3.6-16.4z"
+              />
+            </svg>
+            <span>Focused Mindset</span>
+          </a>
+          <p>Streetwear for the ones who stay locked in.</p>
+        </div>
+
+        <div class="footer-col">
+          <h3>Shop</h3>
+          <a href="https://focusedmindset.shop/collections/all" target="_blank" rel="noopener" aria-label="Full collection on FCSD store (opens in new tab)">Full collection</a>
+          <a href="https://focusedmindset.shop/" target="_blank" rel="noopener" aria-label="FCSD store home (opens in new tab)">Store home</a>
+          <a href="https://focusedmindset.shop/pages/contact" target="_blank" rel="noopener" aria-label="Contact form on FCSD store (opens in new tab)">Contact form</a>
+        </div>
+
+        <div class="footer-col">
+          <h3>Follow</h3>
+          <a href="http://instagram.com" target="_blank" rel="noopener" aria-label="Instagram (opens in new tab)">Instagram</a>
+          <a href="https://tiktok.com/" target="_blank" rel="noopener" aria-label="TikTok (opens in new tab)">TikTok</a>
+          <a href="https://focusedmindset.shop/x.com" target="_blank" rel="noopener" aria-label="X Twitter (opens in new tab)">X (Twitter)</a>
+          <a href="https://focusedmindset.shop/pinterest.com" target="_blank" rel="noopener" aria-label="Pinterest (opens in new tab)">Pinterest</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Focused Mindset (FCSD). Stay focused.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
